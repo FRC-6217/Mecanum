@@ -81,6 +81,7 @@ public class Robot extends TimedRobot {
       m_robotDrive.driveCartesian(0, -.2, 0);
     }
      else {
+       //ew
       m_robotDrive.driveCartesian(0, 0, 0);
     }
   }
